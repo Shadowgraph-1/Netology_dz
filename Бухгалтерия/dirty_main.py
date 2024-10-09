@@ -1,9 +1,8 @@
-
 from application.salary import *
 from application.db.people import *
 from datetime import datetime
 
 if __name__ == '__main__':
-    print(f"Current date: {datetime.now().date()}")
+    print(f"Текущая дата: {datetime.now().date()}")
     calculate_salary()
     get_employees()
